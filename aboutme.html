@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>About Me</title>
+        <script>
+            function myfunc(){
+                var person = prompt("Enter your name",);
+                if(person!=null){
+                    alert(document.getElementById("demo").innerHTML = "Hello " + person + " Welcome to my Page ");
+                } 
+            }
+        </script>
+    </head>
+    <body>
+        <h1>About Me</h1>
+        <h2>Name: Anjana Unnikrishnan</h2>
+        <p>I am a B.Tech 4th year student at Toc H Institute of Science & Technology. My native place is Kalampoor, 
+            a small village in the sides of a beautiful river. I did my schooling at Sree Saraswathy Vidya Mandir.
+        </p>
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech Computer Science & Engineering (Pursuing)</li>
+            <li>12th (2017 Passout)</li>
+            <li>10th (2015 Passout)</li>
+        </ul>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Exploring new Technologies</li>
+            <li>Gardening</li>
+            <li>Playing Badminton</li>
+        </ul>
+        <center><button type="button" onclick="myfunc()">Click Here</button></center>
+        <p id="demo"></p>
+    </body>
+</html>
